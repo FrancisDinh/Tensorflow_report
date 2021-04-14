@@ -32,7 +32,7 @@ In this fourth course, you will learn how to solve time series and forecasting p
 
 ## Sunspot prediction
 
-Below is the certificate.
+Below is the [certificate](https://coursera.org/share/0988be9ea8263100d00b56645c47f2c3).
 ![plot](figures/Tensorflow_certificate.png)
 
-https://coursera.org/share/0988be9ea8263100d00b56645c47f2c3
+
