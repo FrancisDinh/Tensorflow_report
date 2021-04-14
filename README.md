@@ -14,9 +14,10 @@ This second course teaches you advanced techniques to improve the computer visio
 # Phase 3: Natural Language Processing NLP
 In this third course, you’ll learn how to apply neural networks to solve natural language processing problems using TensorFlow. You’ll learn how to process and represent text through tokenization so that it’s recognizable by a neural network. You’ll be introduced to new types of neural networks, including RNNs, GRUs and LSTMs, and how you can train them to understand the meaning of text. Finally, you’ll learn how to train LSTMs on existing text to create original poetry and more!
 ## Sentiment classification
+(Is it sarcasm?)[NLP/sarcasm.ipynb]
 
 ## Embedding
-### Topic classification
+### [Topic classification](NLP/Topic_classification.ipynb)
 ### Reviews classification: [word](NLP/IMDB_word.ipynb) vs [subword](NLP/IMDB_subword.ipynb)
 Word model outputs higher accuracy than subword, however, it requires longer time in training and higher capacity in storage.
 Advantage of subword: 
@@ -25,8 +26,10 @@ Advantage of subword:
 + Mitigate data sparsity: in word data, some words appers only a few times.
 
 ## Sequence
++ [LSTM](NLP/LSTM.ipynb)
++ [Conv1D](NLP/Conv1D.ipynb)
 
-## Poeam generation
+## [Poeam generation](NLP/Text_generation.ipynb)
 
 # Phase4: Time series
 In this fourth course, you will learn how to solve time series and forecasting problems in TensorFlow. You’ll first implement best practices to prepare data for time series learning. You’ll also explore how RNNs and ConvNets can be used for predictions. Finally, you’ll apply everything you’ve learned throughout the Specialization to build a sunspot prediction model using real-world data!
