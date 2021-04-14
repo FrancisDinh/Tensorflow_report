@@ -15,9 +15,16 @@ This second course teaches you advanced techniques to improve the computer visio
 In this third course, you’ll learn how to apply neural networks to solve natural language processing problems using TensorFlow. You’ll learn how to process and represent text through tokenization so that it’s recognizable by a neural network. You’ll be introduced to new types of neural networks, including RNNs, GRUs and LSTMs, and how you can train them to understand the meaning of text. Finally, you’ll learn how to train LSTMs on existing text to create original poetry and more!
 ## Sentiment classification
 
-## Topic classification
+## Embedding
+### Topic classification
+### Reviews classification: [word](NLP/IMDB_word.ipynb) vs [subword](NLP/IMDB_subword.ipynb)
+Word model outputs higher accuracy than subword, however, it requires longer time in training and higher capacity in storage.
+Advantage of subword: 
++ Avoid out-of-vocabulary problem.
++ Manageable vocabulary size
++ Mitigate data sparsity: in word data, some words appers only a few times.
 
-## Reviews classification
+## Sequence
 
 ## Poeam generation
 
